@@ -1,32 +1,132 @@
 body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dark-bg{
+    background-color: #1F2937;
+}
+
+.header, .top, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 24px;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+    color: #E5E7EB;
+    margin: 24px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-left, .top-right{
+    width: 500px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 16px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 16px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 16px;
+}
+
+.information-container {
     display: flex;
     flex-direction: column;
 }
 
-.header, .top{
-    background-color: #1F2937;
-    display:flex;
-    align-items: center;
-}
-
-.header{
-    justify-content: space-between;
-}
-
-.logo{
-    font-size: 24px;
-    color: #F9FAF8
-}
-
-ul{
-    display: flex;
-    gap: 18px;
-    list-style-type: none;
-    color: #E5E7EB
-}
-
-.top{
+.information-text {
+    font-size: 36px;
+    font-weight: 1000;
+    color:#1F2937;
     display: flex;
     justify-content: center;
+    margin: 40px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex-basis: auto;
+    flex-wrap: wrap;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
+    margin: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.bottom-container{
+    background-color: #3882F6;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-top-text{
+    color:#F9FAF8;
+}
+
+.bottom-bottom-text {
+    color: #E5E7EB;
+}
+
+.bottom-button{    
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
 }
